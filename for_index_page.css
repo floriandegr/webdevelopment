@@ -23,7 +23,8 @@ li{margin-bottom : 12px;}
 
 }
 
-a {font-family: 'Comic Sans MS', cursive, sans-serif}
+a {font-family: 'Comic Sans MS', cursive, sans-serif;}
+a:hover {font-size: 60px}
 article {
     flex: 3;
     padding: 20px;
