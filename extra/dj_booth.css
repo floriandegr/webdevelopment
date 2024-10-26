@@ -3,5 +3,6 @@ body {
     background-repeat: repeat;
     background-position: top left;
 
-
+    color: gold;
+    font-size: 40px;
 }
