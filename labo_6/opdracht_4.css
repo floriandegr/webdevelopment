@@ -6,4 +6,10 @@ body {
 h1 {
     font-variant: all-petite-caps;
     background-color: red;
+
+}
+a:hover {
+border: 6px solid black}
+.stippellijn{
+    border: dashed 1px;
 }

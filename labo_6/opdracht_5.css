@@ -1,0 +1,7 @@
+.icon {
+    background-image:url("images/hyperlink.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size:100%;
+    display: inline-block;
+}
