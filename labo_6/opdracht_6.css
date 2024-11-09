@@ -1,0 +1,6 @@
+.checklist{
+    list-style-image: url(images/leeg.jpg);
+}
+.checked{
+    list-style-image: url(images/ok.jpg);
+}
