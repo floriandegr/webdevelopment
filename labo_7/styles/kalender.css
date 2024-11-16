@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+
+    outline: 5px solid black; /* Outline around the entire table */
+}
+th, td {
+    border: 1px dotted black;
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+}
+td:first-child {background: rgb(255, 220, 220)}
+td:last-child {background: rgb(255, 220, 220)}
+tbody .alt {background: darkgrey; color :grey }
+.vrij { background:  rgb(250,120,120)}
+thead tr:first-child {background:  rgb(250,120,120)}
+thead tr:last-child {background:  rgb(35,37,70); color :rgb(200,190,240)}
