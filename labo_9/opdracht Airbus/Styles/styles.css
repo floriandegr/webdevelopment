@@ -1,0 +1,140 @@
+body
+{
+   font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 95%;
+}
+header
+{
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+    display: inline-block;
+    position: relative;
+
+    margin-bottom: 0;
+
+
+}
+header h1
+{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    z-index: 0;
+}
+header h2
+{
+    font-size: 240%;
+    font-weight: bold;
+
+    text-align: center;
+    z-index: 0;
+    position: relative;
+}
+header img
+{
+    float: right;
+    bottom: 60px;
+    right: 250px;
+    z-index: 1;
+    position: absolute;
+}
+.news
+{
+    float: right;
+
+    background-color: #dddddd;
+    border: 1px #999999 solid;
+    width: 25%;
+    color: #666666;
+    font-size: 90%;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 0;
+
+}
+.news h3
+{
+    font-size: 120%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+main
+{
+    width: 75%;
+    padding: 10px;
+}
+article
+{
+
+    text-align: justify;
+    overflow: hidden;
+
+}
+article span
+{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+.logo
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.gallery
+{
+    width: 100%;
+    padding-right: 30px;
+
+}
+.gallery img
+{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border: 1px dashed #999999;
+    background-color: white;
+}
+.gallery div
+{
+    padding: 20px;
+
+    float: left;
+    background-color: #999999;
+
+}
+footer
+{
+    background-color: #666666;
+    color: white;
+    clear: both;
+    background-size: cover;
+
+}
+footer div
+{
+    margin-left: 120px;
+    display: inline-block;
+
+}
+footer nav
+{
+    margin-left: 120px;
+    display: inline-block;
+
+}
+footer nav a :hover
+{
+    background-color: red;
+}

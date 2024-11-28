@@ -1,0 +1,23 @@
+article
+{
+    display: block;
+    border: 1px solid #000;
+    margin: 5px 10px;
+    font-size: 1.25em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main :nth-child(2n) img
+{
+    margin: 10px;
+    float: right;
+    display: inline-block;
+
+}
+main :nth-child(2n+1) img
+{
+    margin: 10px;
+    float: left;
+}
+p{
+    display: inline-block;
+}
