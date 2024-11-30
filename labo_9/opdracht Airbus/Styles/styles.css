@@ -95,7 +95,8 @@ article span
 .gallery
 {
     width: 100%;
-    padding-right: 30px;
+
+    background-color: #999999;
 
 }
 .gallery img
@@ -134,7 +135,11 @@ footer nav
     display: inline-block;
 
 }
-footer nav a :hover
+footer nav a:hover
 {
     background-color: red;
+}
+.copyright
+{
+    text-align: center;
 }
