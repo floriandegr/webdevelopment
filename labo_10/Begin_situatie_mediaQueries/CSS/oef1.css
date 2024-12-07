@@ -52,3 +52,21 @@ figcaption {
 	}
 	
 }
+@media screen and (min-width: 992px) {
+	body {
+		background-color: yellowgreen;
+
+	}
+	figure {
+		width: 33.3%;
+		box-sizing: border-box;
+		display: inline-block;
+		float: left;
+	}
+	img
+	{
+
+		box-sizing: border-box;
+	}
+
+}
